@@ -154,7 +154,7 @@ plt.scatter(y_test, y_pred_lasso,
 min_val = min(y_test.min(), y_pred_linear.min())
 max_val = max(y_test.max(), y_pred_linear.max())
 
-plt.plot([min_val, max_val],
+_val, max_val],
          [min_val, max_val],
          color="black",
          linestyle="--",
